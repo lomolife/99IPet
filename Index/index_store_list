@@ -1,0 +1,285 @@
+<!DOCTYPE HTML>
+<html lang="zh">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,width=device-width" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/frozen.css">
+	<link rel="stylesheet" href="./css/demo.css">
+	<link rel="stylesheet" type="text/css" href="./css/style_list.css">
+	<link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+	<script src="./js/zepto.min.js"></script>
+	<script src="./js/frozen.js"></script>
+	<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=2531d796e7cced9e4c23466f92663fe9"></script>
+	<script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+	<title>store_list</title>
+</head>
+<body  ontouchstart>
+		<div class="arrowlink">
+		<a href="#"><img src="./image/store_detail/arrowlink.png">
+		</a>
+	</div>
+	<div class="search_icon">
+		<a href="#"><img src="./image/jiyang/search_icon.png">
+		</a>
+	</div>
+	<!--lunbo_js组件-->
+	<section class="ui-container">
+		<section id="slider">
+			<div class="demo-block">
+				<div class="ui-slider">
+					<ul class="ui-slider-content">
+						<li class="__web-inspector-hide-shortcut__">
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</section>
+	</section>
+	<!-- 选项卡组件 -->
+	<section class="ui-container">
+		<section id="tab">
+			<div class="demo-item">
+				<div class="demo-block">
+					<div class="ui-tab">
+						<ul class="ui-tab-nav ui-border-b">
+							<li id="1">全部分类<div id="xl1" style="position:relative;top:0.1rem;right:0.1rem;width:25px;height:25px;float:right; background:url(./image/store_list/arr.png) no-repeat center center"></div></li>
+							<li id="2">服务类型<div id="xl2" style="position:relative;top:0.1rem;right:0.1rem;width:25px;height:25px;float:right; background:url(./image/store_list/arr.png) no-repeat center center"></div></li>
+							<li id="3">综合排序<div id="xl3" style="position:relative;top:0.1rem;right:0.1rem;width:25px;height:25px;float:right; background:url(./image/store_list/arr.png) no-repeat center center"></div></li>
+						</ul>
+						<ul class="ui-tab-content">
+							<li style="height:auto">
+									<div class="store1">
+										<div class="store1_p">
+											<img src="./image/store_list/store1.png">
+										</div>
+										<div class="store_info1">
+											<p class="store_name1"><strong>因为爱宠会所 （光谷店）</strong></p>
+											<p class="ser1">洗澡 寄养</p>
+											<p class="pos1">武汉市 光谷/鲁巷</p>
+										</div>
+										<div class="pinfen1">
+											<span><img src="./image/store_detail/assign2.png"></span>
+											<span>1314人评分</span>
+										</div>
+										<div class="distance1">
+											<p>1.5km</p>
+										</div>
+									</div>
+									<div class="store2">
+										<div class="store2_p">
+											<img src="./image/store_list/store1.png">
+										</div>
+										<div class="store_info2">
+											<p class="store_name2"><strong>因为爱宠会所 （光谷店）</strong></p>
+											<p class="ser2">洗澡 寄养</p>
+											<p class="pos2">武汉市 光谷/鲁巷</p>
+										</div>
+										<div class="pinfen2">
+											<span><img src="./image/store_detail/assign2.png"></span>
+											<span>1314人评分</span>
+										</div>
+										<div class="distance2">
+											<p>1.5km</p>
+										</div>
+									</div>
+									<div class="store2">
+										<div class="store2_p">
+											<img src="./image/store_list/store1.png">
+										</div>
+										<div class="store_info2">
+											<p class="store_name2"><strong>因为爱宠会所 （光谷店）</strong></p>
+											<p class="ser2">洗澡 寄养</p>
+											<p class="pos2">武汉市 光谷/鲁巷</p>
+										</div>
+										<div class="pinfen2">
+											<span><img src="./image/store_detail/assign2.png"></span>
+											<span>1314人评分</span>
+										</div>
+										<div class="distance2">
+											<p>1.5km</p>
+										</div>
+									</div>
+									<div class="store2">
+										<div class="store2_p">
+											<img src="./image/store_list/store1.png">
+										</div>
+										<div class="store_info2">
+											<p class="store_name2"><strong>因为爱宠会所 （光谷店）</strong></p>
+											<p class="ser2">洗澡 寄养</p>
+											<p class="pos2">武汉市 光谷/鲁巷</p>
+										</div>
+										<div class="pinfen2">
+											<span><img src="./image/store_detail/assign2.png"></span>
+											<span>1314人评分</span>
+										</div>
+										<div class="distance2">
+											<p id="dis">1.5km</p>
+										</div>
+									</div>
+									<div class="store2">
+										<div class="store2_p">
+											<img src="./image/store_list/store1.png">
+										</div>
+										<div class="store_info2">
+											<p class="store_name2"><strong>因为爱宠会所 （光谷店）</strong></p>
+											<p class="ser2">洗澡 寄养</p>
+											<p class="pos2">武汉市 光谷/鲁巷</p>
+										</div>
+										<div class="pinfen2">
+											<span><img src="./image/store_detail/assign2.png"></span>
+											<span>1314人评分</span>
+										</div>
+										<div class="distance2">
+											<p>1.5km</p>
+										</div>
+									</div>
+									<div class="store2">
+										<div class="store2_p">
+											<img src="./image/store_list/store1.png">
+										</div>
+										<div class="store_info2">
+											<p class="store_name2"><strong>因为爱宠会所 （光谷店）</strong></p>
+											<p class="ser2">洗澡 寄养</p>
+											<p class="pos2">武汉市 光谷/鲁巷</p>
+										</div>
+										<div class="pinfen2">
+											<span><img src="./image/store_detail/assign2.png"></span>
+											<span>1314人评分</span>
+										</div>
+										<div class="distance2">
+											<p>1.5km</p>
+										</div>
+									</div>
+									<!-- <div class="store1"></div>
+									<div class="store1"></div>
+									<div class="store1"></div>
+									<div class="store1"></div> -->
+								<!-- </div> -->
+							</li>
+							<li style="height:auto">内容2</li>
+							<li style="height:auto">内容3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
+	<div id="tip"></div>
+</body>
+<!-- 轮播 -->
+<script class="demo-script">
+			        (function (){
+			            var slider = new fz.Scroll('.ui-slider', {
+			                role: 'slider',
+			                indicator: true,
+			                autoplay: true,
+			                interval: 3000
+			            });
+			            slider.on('beforeScrollStart', function(fromIndex, toIndex) {
+			                console.log(fromIndex,toIndex)
+			            });
+			            slider.on('scrollEnd', function(cruPage) {
+			                console.log(cruPage)
+			            });
+			        })();
+</script>
+<!-- 选项卡 -->
+<script type="text/javascript">
+		(function (){
+            var tab = new fz.Scroll('.ui-tab', {
+		        role: 'tab',
+		        autoplay: false,
+		        interval: 3000
+		    });
+		    /* 滑动开始前 */
+		    tab.on('beforeScrollStart', function(fromIndex, toIndex) {
+		        console.log(fromIndex,toIndex);// from 为当前页，to 为下一页
+		    })
+		})();
+        
+    var yuan1 = document.getElementById('1');
+	var yuan2 = document.getElementById('2');
+	var yuan3 = document.getElementById('3');
+	var xl1 = document.getElementById('xl1');
+	var xl2 = document.getElementById('xl2');
+	var xl3 = document.getElementById('xl3');
+	 yuan1.addEventListener("click",function(event){
+	 	xl1.style.background = "url(./image/store_list/arrs.png) no-repeat center center";
+		 xl2.style.background = "url(./image/store_list/arr.png) no-repeat center center";
+		 xl3.style.background = "url(./image/store_list/arr.png) no-repeat center center";
+	 },false);
+	yuan2.addEventListener("click",function(event){
+		xl2.style.background = "url(./image/store_list/arrs.png) no-repeat center center";
+	 	xl1.style.background = "url(./image/store_list/arr.png) no-repeat center center";
+		xl3.style.background = "url(./image/store_list/arr.png) no-repeat center center";
+	},false);
+	  yuan3.addEventListener("click",function(event){
+	 	xl3.style.background = "url(./image/store_list/arrs.png) no-repeat center center";
+		xl1.style.background = "url(./image/store_list/arr.png) no-repeat center center";
+		xl2.style.background = "url(./image/store_list/arr.png) no-repeat center center";
+	 },false);
+</script>
+<script type="text/javascript">
+	$(function(){
+		$(".store1").click(function(){
+			window.location.href = "./index_store_detail.html";
+		})
+	})
+</script>
+<!-- 定位 -->
+<script type="text/javascript">
+window.onload = function(){
+	var map, geolocation;
+	//加载地图，调用浏览器定位服务
+    map = new AMap.Map('container', {
+        resizeEnable: true
+    });
+	map.plugin('AMap.Geolocation',function(){
+		geolocation = new AMap.Geolocation({
+			enableHighAccuracy: true,//是否使用高精度定位，默认:true
+            timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+            buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+            zoomToAccuracy: true,      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+            buttonPosition:'RB'
+		});
+		map.addControl(geolocation);
+		geolocation.getCurrentPosition();
+		AMap.event.addListener(geolocation, 'complete',onComplete);//返回定位信息
+		AMap.event.addListener(geolocation, 'error',onError);//返回定位出错信息
+	});
+	//解析定位结果
+    function onComplete(data) {
+        var str=['定位成功'];
+        str.push('城市：'+ data.position)
+        str.push('经度：' + data.position.getLng());
+        str.push('纬度：' + data.position.getLat());
+        str.push('精度：' + data.accuracy + ' 米');
+        str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
+        document.getElementById('tip').innerHTML = str.join('<br>');
+    }
+    //解析定位错误信息
+    function onError(data) {
+        document.getElementById('tip').innerHTML = '定位失败';
+    }
+}
+</script>
+<!-- ajax异步请求 -->
+<script type="text/javascript">
+</script>
+</html>
