@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,width=device-width" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="stylesheet" href="./css/frozen.css">
+	<link rel="stylesheet" href="./css/style_detail.css">
+	<link rel="stylesheet" href="./css/demo.css">
+	<script type="text/javascript" src="http://tajs.qq.com/stats?sId=37342703" charset="UTF-8"></script>
+	<script src="./js/zepto.min.js"></script>
+	<script src="./js/frozen.js"></script>
+	<title>store_detail</title>
+</head>
+<body ontouchstart>
+	<!--lunbo_js组件-->
+	<section class="ui-container">
+		<section id="slider">
+			<div class="demo-block">
+				<div class="ui-actionsheet">
+					<div class="ui-actionsheet-cnt">
+						<h4>同时会将我从对方的列表中删除</h4>
+						<button>分享</button>
+						<button class="ui-actionsheet-del">举报</button>
+						<button class="cancel">取消</button>
+					</div>
+				</div>
+
+				<div class="ui-slider">
+					<ul class="ui-slider-content">
+						<li class="__web-inspector-hide-shortcut__">
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+						<li>
+							<span style="background-image:url(./image/store_detail/lunbo_1.jpg)"></span>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+		</section>
+	</section>
+	<div class="arrowlink">
+		<a href="javascript:history.back()"><img src="./image/store_detail/arrowlink.png">
+		</a>
+	</div>
+	<div class="share_icon">
+		<a href="#"><img src="./image/store_detail/share.png">
+		</a>
+	</div>
+	<span class="storename"><strong>因为爱宠物会所</strong></span>
+	<span class="assign"><img src="./image/store_detail/assign.png"></span>
+	<div id="position">
+		<img src="./image/store_detail/position.png">
+		<span id="province">武汉</span>&nbsp<span id="local">光谷格林豪泰</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="distance">1.8km</span></span>
+	</div>
+	<div class="fuwu">
+		<h3>服务</h3>
+		<div class="contents">
+			<div class="fuwu1" name="fuwu1">
+				<img src="./image/store_detail/fuwu1.png">
+				<p>体检&nbsp&nbsp&nbsp&nbsp<strong>¥<strong id="price1">30.00</strong></strong></p>
+				
+				<div class="chose1">
+					<input type="button" class="jian" value="-">
+					<input type="text" class="result" value="0">
+					<input type="button"  class="jia" value="+">
+				</div>
+			</div>
+			<div class="fuwu1" name="fuwu2">
+				<img src="./image/store_detail/fuwu2.png">
+				<p>绝育&nbsp&nbsp&nbsp&nbsp<strong>¥<strong id="price1">50.00</strong></strong></p>
+				
+				<div class="chose1">
+					<input type="button" class="jian" value="-">
+					<input type="text" class="result" value="0">
+					<input type="button" class="jia" value="+">
+				</div>
+			</div>
+			<div class="fuwu1" name="fuwu3">
+				<img src="./image/store_detail/fuwu3.png">
+				<p>美容&nbsp&nbsp&nbsp&nbsp<strong>¥<strong id="price1">60.00</strong></strong></p>
+				
+				<div class="chose1">
+					<input type="button" class="jian" value="-">
+					<input type="text" class="result" value="0">
+					<input type="button" class="jia" value="+">
+				</div>
+			</div>
+			<div class="promise">
+				<img src="./image/store_detail/promise.png">
+				<span>随时退 过期退</span>
+			</div>
+		</div>
+	</div>
+	<div class="jieshao">
+		<h3>宠物店介绍</h3>
+		<p>将心爱的宠物交与陌生人家,  本就是以信任为原则，小七家感谢你们的厚爱。狗狗不会说话，他在寄养家庭过的好不好，全凭寄养人有没有爱狗之心真的就是凭良心做事。<br/><br/>
+        将心爱的宠物交与陌生人家,  本就是以信任为原则，小七家感谢你们的厚爱。狗狗不会说话，他在寄养家庭过的好不好，全凭寄养人有没有爱狗之心真的就是凭良心做事。</p>
+	</div>
+	<div class="pingjia">
+		<h3>评价</h3>
+		<div class="content">
+			<div class="pingjia_person">
+				<img src="./image/store_detail/pingjia_icon.png">
+				<span id="username">小七爱宠</span>
+				<div class="Vrenzheng">
+					<img id="Vrz" src="./image/store_detail/V.png" alt="V5">
+				</div>
+				<div class="pingjia_sex">
+					<img id="PJ_sex" src="./image/store_detail/sex.png" alt="sex">
+				</div>
+				<div class="pingjia_time">13:40</div>
+			</div>
+			<div class="pingjia_content">
+				<p>将心爱的宠物交与陌生人家,  本就是以信任为原则，小七家感谢你们的厚爱。狗狗不会说话，他在寄养家庭过的好不好，全凭寄养人有没有爱狗之心真的就是凭良心做事。<br/><br/>
+				本人有多年的养宠物经验,曾帮人寄养过三年金毛3个月阿拉斯加可接 待性格温和的小狗, 自己家里面有一只泰迪，楼下就有大草坪，滑滑梯，遛狗很方便。我家是上下两层小复式，封闭式窗户，整洁干净方便安全。大家不寄养也可以问我养宠物的各种问题，我一定回复欢迎大家和我交流各种养宠物的经验！<br/><br/>
+				欢迎大家把家里的毛孩子放我家,我希望你的毛孩子来我家可以是以下这样的：<br/>
+				1、来寄养的宝贝们需要打疫苗和驱虫。<br/>
+				2、有良好的生活习惯，不在家随地大小便。<br/>
+				3、性格沉稳优先，不要有太强的领地意识。<br/>
+				4、自带牵引绳，狗粮和窝。<br/>
+				5、寄养一周以上可送一次洗澡服务。<br/>
+				6、同时寄养不超过三只。<br/>
+				7、想爱宠了可以随时随地拍照发视频。<br/>
+				</p>
+			</div>
+		</div>
+	</div>
+<div>
+	<div style="height:100px;">
+		<div class="footer">
+			<div class="shoucang">
+				<a href="#">收藏</a>
+			</div>
+			<div class="telphone">
+				<a href="tel:10086">联系电话</a>
+			</div>
+			<div class="purchase">
+				<a href="#">预约</a>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<!-- 轮播 -->
+<script class="demo-script">
+			        (function (){
+			            var slider = new fz.Scroll('.ui-slider', {
+			                role: 'slider',
+			                indicator: true,
+			                autoplay: true,
+			                interval: 3000
+			            });
+			            slider.on('beforeScrollStart', function(fromIndex, toIndex) {
+			                console.log(fromIndex,toIndex)
+			            });
+			            slider.on('scrollEnd', function(cruPage) {
+			                console.log(cruPage)
+			            });
+			        })();
+</script>
+<!-- 下单 -->
+<script type="text/javascript">
+	$(function(){
+		$(".jia").click(function(){
+			var t = $(this).parent().find('input[class*=result]');
+			t.val(parseInt(t.val())+1);
+			console.log(t);
+		})
+		$(".jian").click(function(){
+			var t =$(this).parent().find('input[class*=result]');
+			t.val(parseInt(t.val())-1);
+			console.log(t);
+			if(parseInt(t.val())<0){
+				t.val(0);
+			}
+		})
+	})
+</script>
+<!-- 分享按钮 -->
+<script type="text/javascript">
+	$(function(){
+		$(".share_icon").click(function(){
+			$('.ui-actionsheet').addClass('show');
+		})
+		$(".cancel").click(function(){
+			$(".ui-actionsheet").removeClass('show');
+})
+	})
+</script>
+
+</html>
