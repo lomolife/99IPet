@@ -7,6 +7,7 @@
 >- index_store_detail.html 商家详情页面索引
 >- index_jiyang.html 商家寄养页面索引
 >- location_map.html 高德地图JSAPI获取经纬度等信息页面索引
+
 ===============================================
 ### 后台项目结构:
 >- index.php应用入口
